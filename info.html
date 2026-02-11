@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Info – Kleiderspenden-Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <!-- HEADER + GLOBALE NAVIGATION -->
+  <header class="border-bottom bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light container py-2">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M12 21s-7-4.35-7-10a4 4 0 0 1 7-2a4 4 0 0 1 7 2c0 5.65-7 10-7 10z"/>
+        </svg>
+        <span class="fw-semibold">Kleiderspenden-Portal</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#registrierung">Registrierung</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="info.html">Info</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="container my-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-9">
+
+        <div class="d-flex align-items-start justify-content-between gap-3 mb-3">
+          <div>
+            <h1 class="h3 mb-1">Informationen zur Kleiderspende</h1>
+            <p class="text-muted mb-0">
+              Hier findest du alle Details zur Abgabe oder Abholung deiner Kleiderspende.
+            </p>
+          </div>
+          <a class="btn btn-primary" href="index.html#registrierung">Zur Registrierung</a>
+        </div>
+
+        <!-- Hinweis: fiktives Studienprojekt -->
+        <div class="alert alert-info">
+          <strong>Hinweis:</strong> Diese Website ist eine Studien-Fallstudie. Angaben sind beispielhaft/fiktiv.
+        </div>
+
+        <!-- Ablauf -->
+        <div class="card shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h2 class="h5 mb-3">So funktioniert’s</h2>
+            <ol class="mb-0">
+              <li>Du registrierst deine Spende über das Formular.</li>
+              <li>Du wählst: <strong>Übergabe an Geschäftsstelle</strong> oder <strong>Abholung</strong>.</li>
+              <li>Nach dem Absenden erhältst du eine <strong>Bestätigung</strong> mit Datum/Uhrzeit und Ort.</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Übergabe / Abholung -->
+        <div class="row g-3 mb-4">
+          <div class="col-12 col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-4">
+                <h2 class="h5">Übergabe an der Geschäftsstelle</h2>
+                <p class="text-muted">
+                  Du bringst die Kleidung selbst vorbei. Dafür brauchst du im Formular nur:
+                </p>
+                <ul class="mb-0">
+                  <li>Art der Kleidung</li>
+                  <li>Krisengebiet (Beispiel-Auswahl)</li>
+                </ul>
+                <hr>
+                <p class="mb-1"><strong>Geschäftsstelle (Beispiel)</strong></p>
+                <p class="text-muted mb-0">Musterstraße 1, 10115 Berlin</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body p-4">
+                <h2 class="h5">Abholung (Sammelfahrzeug)</h2>
+                <p class="text-muted">
+                  Wir holen die Spende ab. Dafür brauchst du zusätzlich:
+                </p>
+                <ul class="mb-0">
+                  <li>Straße & Hausnummer</li>
+                  <li>PLZ & Ort</li>
+                </ul>
+                <hr>
+                <p class="mb-0">
+                  <strong>PLZ-Regel:</strong> Für Abholung muss die PLZ in der Nähe der Geschäftsstelle liegen.
+                  Es werden nur PLZ akzeptiert, deren <strong>erste zwei Ziffern</strong> mit der Geschäftsstelle übereinstimmen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Was kann gespendet werden -->
+        <div class="card shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h2 class="h5 mb-3">Was kann gespendet werden?</h2>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="border rounded p-3 h-100">
+                  <p class="fw-semibold mb-2">Geeignet (Beispiele)</p>
+                  <ul class="mb-0">
+                    <li>Saubere, tragbare Kleidung</li>
+                    <li>Jacken, Hosen, Kinderkleidung</li>
+                    <li>Schuhe (paarweise)</li>
+                    <li>Decken/Bettwäsche (sauber, intakt)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="border rounded p-3 h-100">
+                  <p class="fw-semibold mb-2">Nicht geeignet (Beispiele)</p>
+                  <ul class="mb-0">
+                    <li>Stark beschädigte oder verschmutzte Kleidung</li>
+                    <li>Einzelne Schuhe</li>
+                    <li>Nasse Textilien</li>
+                    <li>Textilien mit starkem Geruch (z. B. Rauch)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Datenschutz kurz -->
+        <div class="card shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h2 class="h5 mb-3">Datenschutz (kurz erklärt)</h2>
+            <p class="text-muted mb-0">
+              Diese Demo speichert die Formulardaten nur kurzzeitig im Browser (sessionStorage),
+              um sie auf der Bestätigungsseite anzuzeigen. Es werden keine Daten an einen Server gesendet.
+              Details findest du in der Datenschutz-Seite.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="card shadow-sm">
+          <div class="card-body p-4">
+            <h2 class="h5 mb-3">FAQ</h2>
+
+            <div class="mb-3">
+              <p class="fw-semibold mb-1">Warum sehe ich manchmal „Keine Daten gefunden“ auf der Bestätigungsseite?</p>
+              <p class="text-muted mb-0">
+                Das passiert, wenn du die Bestätigungsseite direkt öffnest, ohne vorher das Formular abzusenden.
+                Registriere zuerst eine Spende über die Startseite.
+              </p>
+            </div>
+
+            <div class="mb-0">
+              <p class="fw-semibold mb-1">Kann ich mehrere Spenden registrieren?</p>
+              <p class="text-muted mb-0">
+                Ja. Nach der Bestätigung kannst du über „Neue Registrierung“ direkt erneut starten.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-top bg-white">
+    <div class="container py-3 d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span class="text-muted small">© 2026 Kleiderspenden-Verein (fiktiv)</span>
+
+      <span class="text-muted small">
+        <a class="text-muted small text-decoration-none" href="impressum.html">Impressum</a>
+        <span class="text-muted small"> · </span>
+        <a class="text-muted small text-decoration-none" href="datenschutz.html">Datenschutz</a>
+        <span class="text-muted small"> · </span>
+        <a class="text-muted small text-decoration-none" href="hinweise.html">Rechtliche Hinweise</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (für Hamburger-Menü) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
