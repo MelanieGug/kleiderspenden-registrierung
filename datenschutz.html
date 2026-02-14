@@ -1,53 +1,139 @@
 <!doctype html>
 <html lang="de" dir="rtl">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Datenschutz</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-  .nav-align-end { margin-inline-start: auto; }
-</style>
+    .nav-align-end {
+      margin-inline-start: auto;
+    }
+  </style>
 </head>
+
 <body class="bg-light">
-<header class="border-bottom bg-white">
-  <nav class="navbar navbar-expand-lg navbar-light container py-2">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-<img src="mg-logo.png" alt="MG Kleiderspendenportal Logo" height="32" class="d-inline-block align-text-top">
-<span class="fw-semibold d-none d-sm-inline">Kleiderspenden-Portal</span>
-<link rel="icon" type="image/png" href="assets/mg-logo.png">
-    </a>
+  <header class="border-bottom bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light container py-2">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/mg-logo.png" alt="MG Kleiderspendenportal Logo" height="32"
+          class="d-inline-block align-text-top">
+        <link rel="icon" type="image/png" href="assets/mg-logo.png">
+      </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="nav">
-<ul class="navbar-nav nav-align-end">
-<a class="nav-link" href="index.html#registrierung">Registrierung</a>
-<a class="nav-link" href="info.html">Info</a>
-      </ul>
-    </div>
-  </nav>
-</header>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav nav-align-end">
+          <a class="nav-link" href="index.html#registrierung">Registrierung</a>
+          <a class="nav-link" href="info.html">Info</a>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
 
   <main class="container my-4">
     <div class="card shadow-sm">
       <div class="card-body p-4">
-        <h1 class="h4">Datenschutz</h1>
+        <h1 class="h4">Datenschutzerklärung</h1>
+
         <p class="text-muted">
-          Diese Website ist eine Studien-Fallstudie. Es werden keine Daten an einen Server gesendet.
-          Formulardaten werden nur kurzzeitig im Browser gespeichert (sessionStorage) und sind nach dem Schließen des Tabs weg.
+          Diese Website ist ein Studienprojekt („MG Kleiderspendenportal“) und dient ausschließlich der Demonstration
+          einer Webanwendung.
+          Der Schutz deiner personenbezogenen Daten ist uns wichtig. Im Folgenden informieren wir darüber, welche Daten
+          auf dieser Website
+          verarbeitet werden und zu welchem Zweck.
         </p>
-        <a class="btn btn-primary" href="index.html">Zurück zur Registrierung</a>
+
+        <h2 class="h6 mt-4">Verantwortliche Stelle</h2>
+        <p>
+          <strong>Verantwortlich für die Datenverarbeitung (Studienprojekt):</strong><br>
+          MG Kleiderspenden-Verein (fiktiv)<br>
+          Musterstraße 1, 10115 Berlin<br>
+          E-Mail: beispiel@mg-kleiderspenden-verein.de (fiktiv)
+        </p>
+
+        <h2 class="h6 mt-4">Welche Daten werden verarbeitet?</h2>
+        <p class="mb-2"><strong>1) Daten aus dem Formular (Kleiderspenden-Registrierung)</strong></p>
+        <ul>
+          <li>Art der Kleidung</li>
+          <li>ausgewähltes Krisengebiet</li>
+          <li>nur bei Abholung: Straße/Hausnummer, Postleitzahl, Ort</li>
+        </ul>
+
+        <p class="mb-2"><strong>2) Technische Daten (automatisch beim Aufruf)</strong></p>
+        <p>
+          Beim Aufruf einer Website werden durch deinen Browser technisch bedingt Daten übertragen (z. B. IP-Adresse,
+          Datum/Uhrzeit, Browsertyp).
+          Diese Website wertet solche Daten nicht aktiv aus und speichert sie nicht selbst in einer eigenen Datenbank.
+        </p>
+
+        <h2 class="h6 mt-4">Zweck der Verarbeitung</h2>
+        <p>
+          Die Eingaben werden ausschließlich verwendet, um die Registrierung zu prüfen (Pflichtfelder & PLZ-Regel) und
+          eine Bestätigungsseite
+          mit den eingegebenen Informationen anzuzeigen.
+        </p>
+
+        <h2 class="h6 mt-4">Speicherung der Daten</h2>
+        <p>
+          Diese Website speichert die Formulardaten nicht auf einem Server. Die Daten werden nur vorübergehend im
+          Browser gespeichert,
+          damit sie auf der Bestätigungsseite angezeigt werden können.
+        </p>
+        <ul>
+          <li>Verwendete Technik: sessionStorage</li>
+          <li>Speicherdauer: bis du den Tab/Browser schließt oder eine neue Registrierung startest</li>
+          <li>Zweck: Anzeige der Bestätigung nach dem Absenden des Formulars</li>
+        </ul>
+
+        <h2 class="h6 mt-4">Weitergabe an Dritte</h2>
+        <p class="text-muted">Eine Weitergabe der Formulardaten an Dritte findet nicht statt.</p>
+
+        <h2 class="h6 mt-4">Hosting / GitHub Pages</h2>
+        <p>
+          Diese Website wird über GitHub Pages bereitgestellt. Beim Aufruf der Seiten verarbeitet GitHub technisch
+          bedingt Verbindungsdaten
+          (z. B. IP-Adresse), um die Inhalte auszuliefern.
+        </p>
+
+        <h2 class="h6 mt-4">Cookies und Tracking</h2>
+        <ul>
+          <li>keine Cookies zu Tracking- oder Werbezwecken</li>
+          <li>keine Analyse-Tools (z. B. Google Analytics)</li>
+          <li>keine externen Tracking-Skripte</li>
+        </ul>
+
+        <h2 class="h6 mt-4">Deine Rechte</h2>
+        <p>
+          Du hast grundsätzlich Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und
+          Widerspruch (je nach Anwendbarkeit).
+          Da im Rahmen dieses Studienprojekts keine serverseitige Speicherung deiner Formulardaten erfolgt, können in
+          der Regel keine personenbezogenen
+          Daten aus dem Formular nachträglich zugeordnet oder herausgegeben werden.
+        </p>
+
+        <h2 class="h6 mt-4">Kontakt</h2>
+        <p>
+          Bei Fragen zum Datenschutz in diesem Studienprojekt kannst du dich an die oben genannte verantwortliche Stelle
+          wenden.
+        </p>
+
+        <p><strong>Stand:</strong> Februar 2026</p>
+        <p>
+          <a class="btn btn-primary" href="index.html">Zurück zur Registrierung</a>
+        </p>
       </div>
     </div>
   </main>
 
   <footer class="border-top bg-white">
     <div class="container py-3 d-flex flex-column flex-md-row justify-content-between gap-2">
-      <span class="text-muted small">© 2026 Kleiderspenden-Verein (fiktiv)</span>
+      <span class="text-muted small">© 2026 MG Kleiderspenden-Verein (fiktiv)</span>
       <span class="text-muted small">
         <a class="text-muted text-decoration-none" href="impressum.html">Impressum</a> ·
         <a class="text-muted text-decoration-none" href="datenschutz.html">Datenschutz</a> ·
@@ -57,14 +143,15 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-  (function () {
-    const rtlLangs = ["ar", "he", "fa", "ur"];
-    const langs = (navigator.languages && navigator.languages.length)
-      ? navigator.languages
-      : [navigator.language || ""];
-    const isRtl = langs.some(l => rtlLangs.includes(l.split("-")[0].toLowerCase()));
-    document.documentElement.setAttribute("dir", isRtl ? "rtl" : "ltr");
-  })();
-</script>
+    (function () {
+      const rtlLangs = ["ar", "he", "fa", "ur"];
+      const langs = (navigator.languages && navigator.languages.length)
+        ? navigator.languages
+        : [navigator.language || ""];
+      const isRtl = langs.some(l => rtlLangs.includes(l.split("-")[0].toLowerCase()));
+      document.documentElement.setAttribute("dir", isRtl ? "rtl" : "ltr");
+    })();
+  </script>
 </body>
+
 </html>
